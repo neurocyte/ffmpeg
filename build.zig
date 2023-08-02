@@ -602,7 +602,7 @@ pub fn build(b: *std.Build) void {
         .CONFIG_LIBTORCH = 0,
         .CONFIG_LIBTWOLAME = 0,
         .CONFIG_LIBUAVS3D = 0,
-        .CONFIG_LIBV4L2 = 0,
+        .CONFIG_LIBV4L2 = 1,
         .CONFIG_LIBVMAF = 0,
         .CONFIG_LIBVORBIS = 1,
         .CONFIG_LIBVPX = 0,
